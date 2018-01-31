@@ -11,8 +11,33 @@ namespace BranchesLoops
             int b = 3;
             if (a + b > 10)
                 Console.WriteLine("The answer is greater than 10");
+            else
+                Console.WriteLine("The answer is not greater than 10");
 
+            int aa = 5;
+            int bb = 3;
+            int cc = 4;
+            //if ((aa + bb + cc > 10) && (aa > bb))
+            //{
+            //    Console.WriteLine("The answer is greater than 10");
+            //    Console.WriteLine("And the first number is greater than the second");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("The answer is not greater than 10");
+            //    Console.WriteLine("Or the first number is not greather than the second");
+            //}
 
+            if ((aa + bb + cc > 10) || (aa > bb))
+            {
+                Console.WriteLine("The answer is greater than 10");
+                Console.WriteLine("Or the first number is greater than the second");
+            }
+            else
+            {
+                Console.WriteLine("The answer is not greater than 10");
+                Console.WriteLine("And the first number is not greather than the second");
+            }
         }
     }
 }
