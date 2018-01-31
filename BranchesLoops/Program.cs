@@ -38,6 +38,13 @@ namespace BranchesLoops
                 Console.WriteLine("The answer is not greater than 10");
                 Console.WriteLine("And the first number is not greather than the second");
             }
+
+            int counter = 0;
+            do
+            {
+                Console.WriteLine($"Hello World! the counter is {counter}");
+                counter++;
+            } while (counter < 10);
         }
     }
 }
