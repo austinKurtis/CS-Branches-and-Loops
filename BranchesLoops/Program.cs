@@ -50,6 +50,18 @@ namespace BranchesLoops
             {
                 Console.WriteLine($"Hello World! The counter is {counterB}");
             }
+
+            int sum = 0;
+            for (int loopCount = 1; loopCount <= 20; loopCount++)
+            {
+                if (loopCount % 3 == 0)
+
+                    sum += loopCount;
+                
+
+
+            }
+            Console.WriteLine(sum);
         }
     }
 }
