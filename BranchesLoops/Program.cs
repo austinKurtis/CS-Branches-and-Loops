@@ -45,6 +45,11 @@ namespace BranchesLoops
                 Console.WriteLine($"Hello World! the counter is {counter}");
                 counter++;
             } while (counter < 10);
+
+            for (int counterB = 7; counterB < 42; counterB++)
+            {
+                Console.WriteLine($"Hello World! The counter is {counterB}");
+            }
         }
     }
 }
